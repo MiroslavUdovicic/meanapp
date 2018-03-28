@@ -36,7 +36,7 @@ app.use('/users', users);
 
 //Index Route
 app.get("/", (req, res) => {
-  res.send("Alah je veliki");
+  res.send("Home");
 });
 
 app.get("*", (req, res) => {
